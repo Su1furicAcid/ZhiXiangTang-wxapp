@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/baike/baike",
+    "pages/daoxue/daoxue"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#31869B",
+    "list": [
+      {
+        "current": 0,
+        "pagePath": "pages/baike/baike",
+        "text": "聚知社",
+        "iconPath": "/images/大学,学府,法院 (1).png",
+        "selectedIconPath": "/images/大学,学府,法院.png"
+      },
+      {
+        "current": 1,
+        "pagePath": "pages/index/index",
+        "text": "智交所",
+        "iconPath": "/images/密匙0.png",
+        "selectedIconPath": "/images/密匙.png"
+      },
+      {
+        "current": 2,
+        "pagePath": "pages/daoxue/daoxue",
+        "text": "知轮阁",
+        "iconPath": "/images/博士帽.png",
+        "selectedIconPath": "/images/博士帽1.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

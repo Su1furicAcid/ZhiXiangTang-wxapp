@@ -1,0 +1,108 @@
+
+<view class="plant" style="background-color: #ececec" >
+  <view class="top">
+    <!-- <view style="font-size: 40px;font-family: 阿里妈妈方圆体 VF Regular;font-weight: 600;text-align: center;background-color: #ffffff;margin-bottom: 5rpx;">
+    聚知社
+    </view> -->
+    <swiper class="swipers" autoplay="ture" indicator-dots="true" indicator-color="rgba(255, 255, 255,50%)" 	indicator-active-color="rgba(65, 221, 85,70%)" interval="5000" circular="true">
+      <swiper-item class="swiper_img">
+        <image class="swiper_img" src="https://cdn.pixabay.com/photo/2016/02/06/09/56/science-1182713_1280.jpg" mode="aspectFill"/>
+      </swiper-item>
+      <swiper-item class="swiper_img">
+        <image class="swiper_img" src="https://cdn.pixabay.com/photo/2015/08/19/05/17/large-895567_1280.jpg" mode=""/>
+      </swiper-item>
+      <swiper-item class="swiper_img">
+        <image class="swiper_img" src="https://cdn.pixabay.com/photo/2018/04/21/02/11/iot-3337536_1280.png" mode="aspectFill"/>
+      </swiper-item>
+    </swiper>
+    
+    <view class="search">
+      <view class="search_in">
+        <image src="/images/搜索.png"></image>
+        <input type="text" placeholder="请输入搜索内容"/>
+        <view class="search_btn">搜索</view>
+      </view>
+    </view>
+</view>
+
+<view class="container1" style="background-color: #ffffff;">
+  <view class="title1">
+  知百库
+  </view>
+  <view class="baiku3">
+    <view class="bk0">
+      <view class="bk">
+      <image class="bk1" src="/images/电脑.png" />
+      </view>  
+      <view class="text1">百库百科</view>
+    </view>
+    
+    <view class="bk0">
+      <view class="bk">
+      <image class="bk1" src="/images/摄像机,录像机.png" />
+      </view>  
+      <view class="text1">百库导学</view>
+    </view>
+
+    <view class="bk0">
+      <view class="bk">
+      <image class="bk1" src="/images/奖杯,名次.png" />
+      </view>  
+      <view class="text1">百库竞答</view>
+    </view>
+  </view>
+</view>
+
+<view class="container2" style="background-color: #ffffff;">
+  <view class="title1">
+  知互帮
+  </view>
+  <view class="hubang">
+    <view class="div1">
+      <image class="hb" src="/images/热度2.png" mode=""/>
+      <view class="title2">
+        <view style="font-size: 30rpx;color: #ffffff;font-weight: 400;margin-top: 6rpx">
+          热榜助手：
+        </view>
+        <view style="font-size: 26rpx;color: #ffffff;font-weight: 400;margin-top: 4rpx;">
+          热榜第一话题为：生物志数据库的奇妙之…
+        </view>
+      </view>
+    </view>
+    <view class="div2">
+      <image class="hb1" src="/images/书本.png" mode=""/>
+      <view class="title2">
+        <view style="font-size: 30rpx;color: #ffffff;font-weight: 400;margin-top: 6rpx">
+          使用教程：
+        </view>
+        <view style="font-size: 26rpx;color: #ffffff;font-weight: 400;margin-top: 4rpx;">
+          本程序可以实现包括数据检索、查询等功…
+        </view>
+      </view>
+    </view>
+    <view class="div3">
+      <image class="hb2" src="/images/社区.png" mode=""/>
+      <view class="title2">
+        <view style="font-size: 30rpx;color: #ffffff;font-weight: 400;margin-top: 6rpx">
+          社区导引：
+        </view>
+        <view style="font-size: 26rpx;color: #ffffff;font-weight: 400;margin-top: 4rpx;">
+          今日社区新增2061条新的动态，看看大家…
+        </view>
+      </view>
+    </view>
+
+    <view class="div4">
+      <image class="hb2" src="/images/个人中心.png" mode=""/>
+      <view class="title2">
+        <view style="font-size: 30rpx;color: #ffffff;font-weight: 400;margin-top: 6rpx">
+          个人中心：
+        </view>
+        <view style="font-size: 26rpx;color: #ffffff;font-weight: 400;margin-top: 4rpx;">
+          今日有什么想要查询的吗QAQ？
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
