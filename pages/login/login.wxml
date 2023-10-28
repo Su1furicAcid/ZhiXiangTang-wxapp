@@ -8,7 +8,7 @@
     <view class="footer-swiper">
       <swiper autoplay="true" indicator-dots="true" indicator-color="rgba(255, 255, 255, 50%)">
         <swiper-item wx:for="{{swiperList}}" wx:key="index" wx:for-item="item">
-          <image wx:if="{{item.length}}" src="{{item}}" class="swiper-img" mode="widthFix"></image>
+          <image wx:if="{{item.length}}" src="{{item}}" class="swiper-img" mode="heightFix"></image>
         </swiper-item>
       </swiper>
     </view>
