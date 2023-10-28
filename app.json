@@ -1,16 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/home/home",
     "pages/baike/baike",
-    "pages/daoxue/daoxue"
+    "pages/daoxue/daoxue",
+    "pages/login/login"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "selectedColor": "#31869B",
@@ -38,7 +39,6 @@
       }
     ]
   },
-
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

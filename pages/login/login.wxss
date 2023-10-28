@@ -1,0 +1,40 @@
+/* pages/login/login.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.header-pic {
+  width: 100%;
+  position: relative;
+}
+.header-title {
+  z-index: 100;
+  width: 400rpx;
+  position: absolute;
+  right: 23%;
+  top: 15%;
+}
+.login-btn {
+  color: white;
+  background-color: #1414b8;
+  position: relative;
+  top: 400rpx;
+}
+.login-btn:active {
+  background-color: #27277c;
+}
+.footer {
+  width: 100%;
+}
+.footer-swiper {
+  width: 100%;
+  height: 100rpx;
+}

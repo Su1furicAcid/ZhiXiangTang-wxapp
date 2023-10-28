@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="header">
+    <image wx:if="{{homeBg.length}}" class="header-pic" mode="widthFix" src="{{homeBg}}"></image>
+    <image wx:if="{{homeTitle.length}}" class="header-title" mode="widthFix" src="{{homeTitle}}" />
+  </view>
+  <view class="footer">
+    <view class="footer-swiper">
+      <swiper autoplay="true" indicator-dots="true" indicator-color="rgba(255, 255, 255, 50%)">
+        <swiper-item wx:for="{{swiperList}}" wx:key="index" wx:for-item="item">
+          <image wx:if="{{item.length}}" src="{{item}}" class="swiper-img" mode="heightFix"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="footer-btn">
+      <view class="footer-login">
+        <button class="login-btn" bindtap="wxLogin">立即体验</button>
+      </view>
+    </view>
+  </view>
+</view>
