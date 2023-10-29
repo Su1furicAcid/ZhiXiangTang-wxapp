@@ -1,0 +1,21 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Install Dependencies
+        run: npm install
+      - name: Commit lint
+        uses: ahmadnassri/action-commit-lint@v1
+        with:
+          config: ./commitlint.config.js
