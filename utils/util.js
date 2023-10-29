@@ -55,7 +55,8 @@ const wxApi = promisifyAll(
   'showModal',
   'navigateTo',
   'switchTab',
-  'authorize'
+  'authorize',
+  'request'
 )
 
 module.exports = {
